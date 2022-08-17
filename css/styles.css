@@ -11660,4 +11660,9 @@ background: linear-gradient(90deg, rgba(255,218,0,0.8491771708683473) 100%, rgba
     width: 30px;
 }
 
+#myimage.img-fluid {
+
+  border-radius: 15rem;
+}
+
 
