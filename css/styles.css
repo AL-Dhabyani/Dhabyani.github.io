@@ -11660,9 +11660,21 @@ background: linear-gradient(90deg, rgba(255,218,0,0.8491771708683473) 100%, rgba
     width: 30px;
 }
 
-#myimage.img-fluid {
 
-  border-radius: 15rem;
+.portfolioo-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
-
-
+.portfolioo-item .portfolioo-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background: rgb(255,218,0);
+background: linear-gradient(90deg, rgba(255,218,0,0.8491771708683473) 100%, rgba(230,237,7,0.47942927170868344) 100%);
+}
